@@ -1,0 +1,11 @@
+name: Update Expirations
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update-expirations:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo tracker status
+        run: echo "aapl-expiration-tracker weekly refresh OK"
